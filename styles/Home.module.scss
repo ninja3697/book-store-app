@@ -1,0 +1,33 @@
+.home {
+  padding-top: 10px;
+  .title {
+    margin: 0;
+    font-size: 36px;
+    font-weight: 600;
+  }
+
+  .subTitle {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 400;
+  }
+
+  .description {
+    margin: 2rem 0;
+    line-height: 1.5;
+    font-size: 12px;
+    font-weight: 400;
+  }
+
+  .illustration_bookLinks {
+    display: flex;
+    align-content: space-between;
+    justify-content: space-between;
+    .bookList {
+      list-style: none;
+      li {
+        padding: 20px 0;
+      }
+    }
+  }
+}

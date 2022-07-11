@@ -1,0 +1,21 @@
+.bookDetailView {
+  .link {
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  .bookDetails {
+    .cover_addButton {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      max-width: 600px;
+      .button {
+        cursor: pointer;
+        width: 200px;
+        height: 50px;
+        margin: 20px;
+      }
+    }
+  }
+}
